@@ -1,24 +1,31 @@
 .nav-wrapper {
-    width: 40%;
+    width: 100%;
     display: flex;
-    justify-content: space evenly;
-
-  .nav-link { 
-      text-decoration: none;
-      font-family: "Corinthia", cursive;
-      font-size: 30px;
-      transition: 0.3s ease-in-out;
-
-      &:hover {
-          color: blue; 
-      }
-  }
-
+    justify-content: space-evenly;
+    margin-bottom: 55px;
     a {
-        margin: 10px;
+        text-decoration: none;
+        font-family: "Corinthia", cursive;
+        font-size: 30px;
+        transition: 0.3s ease-in-out;
+        color: #0AFFCE;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+            color: white; 
+        }
     }
 
     a.active {
+        color: #ADFFEF;
         text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .nav-wrapper {
+        a {
+            font-size: 15px;
+        }
     }
 }
