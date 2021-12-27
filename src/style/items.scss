@@ -1,0 +1,13 @@
+.items-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    
+    .title {
+        font-size: 25px;
+    }
+
+    .description {
+        color: blue;
+        font-size: 25px;
+    }
+}
